@@ -33,9 +33,12 @@ StethoWrapper.inspectNetwork(okhttpclient_builder);
 ```
 
 如果运行提示下列错误
+
 > Error java.lang.NoClassDefFoundError: Failed resolution of: Lokhttp3/internal/Platform
 
+
 则把依赖改成
+
 ```
 debugCompile ('com.github.licheedev.StethoWrapper:stetho_debug:1.0.0'){
     exclude group: 'com.squareup.okhttp3', module: 'okhttp'
@@ -44,6 +47,7 @@ debugCompile ('com.github.licheedev.StethoWrapper:stetho_debug:1.0.0'){
 
 
 如果同步Gradle提示下列错误
+
 > Error:Conflict with dependency 'com.google.code.findbugs:jsr305' in project ':app'. Resolved versions for app (3.0.1) and test app (2.0.1) differ. See http://g.co/androidstudio/app-test-app-conflict for details.
 
 则按这样修改出错module的`gradle.build`
