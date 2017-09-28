@@ -30,8 +30,6 @@ StethoWrapper.initStetho(this);
 StethoWrapper.inspectNetwork(okhttpclient_builder);
 ```
 
-```
-
 如果运行提示下列错误
 
 > Error java.lang.NoClassDefFoundError: Failed resolution of: Lokhttp3/internal/Platform
