@@ -1,0 +1,1 @@
+include ':app', ':stetho_release', ':stetho_debug'
