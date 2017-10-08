@@ -30,4 +30,5 @@ dependencies {
     
     debugCompile project(':stetho_debug')
     releaseCompile project(':stetho_release')
+    compile 'com.squareup.okhttp3:okhttp:3.4.2'
 }

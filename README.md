@@ -18,8 +18,9 @@ allprojects {
 
 ```
 dependencies {
-        debugCompile 'com.github.licheedev.StethoWrapper:stetho_debug:1.0.1'
-        releaseCompile 'com.github.licheedev.StethoWrapper:stetho_release:1.0.1'
+    debugCompile 'com.github.licheedev.StethoWrapper:stetho_debug:1.0.2'
+    releaseCompile 'com.github.licheedev.StethoWrapper:stetho_release:1.0.2'
+    provided 'com.squareup.okhttp3:okhttp:3.4.2'
 }
 ```
 
